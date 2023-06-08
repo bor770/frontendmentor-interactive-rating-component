@@ -1,0 +1,7 @@
+:host {
+  background-color: var(--color-neutral-dark-blue);
+  border-radius: 15px;
+  height: 22.5rem;
+  padding: 1.562rem 1.562rem 1.875rem;
+  width: 20.312rem;
+}

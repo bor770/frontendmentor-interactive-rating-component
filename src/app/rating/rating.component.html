@@ -1,0 +1,14 @@
+<img src="../../assets/images/icon-star.svg" alt="Star" />
+<h1>How did we do?</h1>
+<p>
+  Please let us know how we did with your support request. All feedback is
+  appreciated to help us improve our offering!
+</p>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <mat-chip-listbox hideSingleSelectionIndicator formControlName="selected">
+    <mat-chip-option *ngFor="let rating of ratings">{{
+      rating
+    }}</mat-chip-option>
+  </mat-chip-listbox>
+  <button extended mat-fab>Submit</button>
+</form>
