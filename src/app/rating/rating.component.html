@@ -5,7 +5,11 @@
   appreciated to help us improve our offering!
 </p>
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
-  <mat-chip-listbox hideSingleSelectionIndicator formControlName="selected">
+  <mat-chip-listbox
+    class="chips"
+    hideSingleSelectionIndicator
+    formControlName="selected"
+  >
     <mat-chip-option *ngFor="let rating of ratings">{{
       rating
     }}</mat-chip-option>

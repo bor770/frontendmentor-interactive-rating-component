@@ -26,5 +26,6 @@ body {
   background-color: var(--color-neutral-very-dark-blue);
   display: flex;
   font-family: "Overpass", Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 400;
   justify-content: center;
 }
