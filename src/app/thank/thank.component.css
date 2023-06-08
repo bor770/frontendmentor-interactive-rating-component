@@ -30,3 +30,28 @@ h1 {
   font-size: 0.89rem;
   line-height: 1.5;
 }
+
+@media (min-width: 80rem) {
+  :host {
+    padding-top: 0.75rem;
+  }
+
+  img {
+    margin-bottom: 2.1rem;
+    width: 10.312rem;
+  }
+
+  .selected {
+    font-size: 0.95rem;
+    margin-bottom: 2.1rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .we {
+    font-size: 0.93rem;
+  }
+}

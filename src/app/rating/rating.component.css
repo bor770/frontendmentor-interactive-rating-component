@@ -47,3 +47,18 @@ form {
   background-color: var(--color-neutral-white);
   color: var(--color-primary-orange);
 }
+
+@media (min-width: 80rem) {
+  img {
+    width: 2.7rem;
+  }
+
+  h1 {
+    font-size: 1.65rem;
+  }
+
+  p {
+    font-size: 0.937rem;
+    line-height: 1.7;
+  }
+}

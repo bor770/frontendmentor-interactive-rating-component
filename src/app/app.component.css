@@ -13,3 +13,12 @@ main {
 article {
   height: 100%;
 }
+
+@media (min-width: 80rem) {
+  :host {
+    border-radius: 25px;
+    height: 25.937rem;
+    padding: 2.187rem;
+    width: 25.625rem;
+  }
+}
