@@ -1,0 +1,34 @@
+:host {
+  display: block;
+  padding-top: 0.6rem;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto 1.65rem;
+  width: 9rem;
+}
+
+.selected {
+  align-items: center;
+  border-radius: 15px;
+  color: var(--color-primary-orange);
+  display: flex;
+  font-size: 0.9rem;
+  height: 1.875rem;
+  justify-content: center;
+  margin: 0 auto 1.7rem;
+  width: 10.312rem;
+}
+
+h1 {
+  color: var(--color-neutral-white);
+  margin-bottom: 0.7rem;
+}
+
+.we {
+  color: var(--color-neutral-light-grey);
+  font-size: 0.89rem;
+  line-height: 1.5;
+}
