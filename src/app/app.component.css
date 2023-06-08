@@ -5,3 +5,11 @@
   padding: 1.562rem 1.562rem 1.875rem;
   width: 20.312rem;
 }
+
+main {
+  height: 100%;
+}
+
+article {
+  height: 100%;
+}

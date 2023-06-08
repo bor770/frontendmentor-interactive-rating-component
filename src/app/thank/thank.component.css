@@ -12,14 +12,12 @@ img {
 
 .selected {
   align-items: center;
-  border-radius: 15px;
   color: var(--color-primary-orange);
   display: flex;
   font-size: 0.9rem;
   height: 1.875rem;
   justify-content: center;
   margin: 0 auto 1.7rem;
-  width: 10.312rem;
 }
 
 h1 {
