@@ -6,13 +6,13 @@
 </p>
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
   <mat-chip-listbox
-    class="chips"
+    class="chips light-grey-chips"
     hideSingleSelectionIndicator
     formControlName="selected"
   >
-    <mat-chip-option *ngFor="let rating of ratings">{{
+    <mat-chip-option *ngFor="let rating of ratings" class="chip">{{
       rating
     }}</mat-chip-option>
   </mat-chip-listbox>
-  <button extended mat-fab>Submit</button>
+  <button class="button" extended mat-fab>Submit</button>
 </form>
